@@ -1,3 +1,5 @@
+/* exported trySet */
+
 import Ember from "ember-metal/core";
 import { _getPath as getPath } from "ember-metal/property_get";
 import {
