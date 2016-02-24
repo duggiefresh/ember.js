@@ -253,6 +253,7 @@ ComputedPropertyPrototype.readOnly = function() {
 ComputedPropertyPrototype.property = function() {
   var args;
 
+  // TODO: DOUG - this is where the nested dependent keys are throwing a warning
   var addArg = function(property) {
     warn(
       `Dependent keys containing @each only work one level deep. ` +
